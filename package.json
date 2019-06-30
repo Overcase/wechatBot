@@ -1,0 +1,24 @@
+{
+  "name": "lhf-wechatBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dayjs": "^1.8.14",
+    "file-box": "^0.8.27",
+    "node-schedule": "^1.3.2",
+    "qrcode-terminal": "^0.12.0",
+    "superagent": "^5.1.0",
+    "wechaty": "^0.26.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-nodejs": "0.0.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
