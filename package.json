@@ -1,7 +1,8 @@
 {
   "name": "lhf-wechatBot",
   "version": "1.0.0",
-  "description": "",
+  "type": "commonjs",
+  "description": "linhf bot",
   "main": "index.js",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
@@ -13,12 +14,14 @@
     "wechaty": "^0.26.1"
   },
   "devDependencies": {
-    "eslint-plugin-nodejs": "0.0.1"
+    "eslint": "^6.0.1",
+    "eslint-plugin-nodejs": "0.0.1",
+    "jsdoc": "^3.6.2"
   },
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "linhf",
   "license": "ISC"
 }

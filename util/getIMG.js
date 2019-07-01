@@ -1,5 +1,5 @@
-const { FileBox } = require('file-box')
-const path = require('path')
+'use strict';
+const { FileBox } = require('file-box');
 
 // 图片路径
 const IMG_PATH = '/assert/images/';
@@ -9,10 +9,10 @@ const IMG_NUM = 28;
 let I = 0;
 
 const getIMG = () => {
-  const img_path = `${IMG_PATH}linhf_${I++ % IMG_NUM}.png`
-  return FileBox.fromFile(img_path)
-}
+  const img_path = `${IMG_PATH}linhf_${I++ % IMG_NUM}.png`;
+  return FileBox.fromFile(img_path);
+};
 
-console.log(getIMG())
+console.log(getIMG());
 
-module.exports = getIMG
+module.exports = getIMG;

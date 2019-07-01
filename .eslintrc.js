@@ -7,7 +7,7 @@ module.exports = {
     es6: true
   },
   parserOptions: {
-    ecmaVersion: 2016
+    ecmaVersion: 2017
   },
   rules: {
     // Possible Errors
@@ -101,7 +101,7 @@ module.exports = {
     'key-spacing': [2, { mode: 'minimum' }],
     'keyword-spacing': 2,
     'linebreak-style': [2, 'unix'],
-    'max-len': [2, 80, 2],
+    'max-len': [2, 140, 2],
     'new-parens': 2,
     'no-mixed-spaces-and-tabs': 2,
     'no-multiple-empty-lines': [2, { 'max': 2, 'maxEOF': 0, 'maxBOF': 0 }],
